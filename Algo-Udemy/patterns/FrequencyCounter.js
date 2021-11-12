@@ -30,6 +30,7 @@
 
 
 //Refactored //Two seperate loop is better than one nested loop
+//time complexity = O(n)
 
 function same(arr1, arr2){
     //return false if arr1 length is not equal to arr2 length
