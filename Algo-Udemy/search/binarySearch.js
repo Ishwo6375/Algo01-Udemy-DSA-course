@@ -47,4 +47,5 @@ function binarySearch(arr, elem){
 //  return -1;
 }
 
-binarySearch([2,5,6,9,13,15,28,30], 9);
+binarySearch([2,5,6,9,13,15,28,30], 9); //output : 3
+binarySearch([2,5,6,9,13,15,28,30], 50); //output : -1 //beacuse 50 is not in the array//
