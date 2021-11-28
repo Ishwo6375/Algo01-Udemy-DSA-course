@@ -9,6 +9,8 @@
 //the element in the correct place.
 //Repeat until the array is sorted///
 
+//time complexity = O(N2) //Quadratic time//
+
 
 function insertionSort(arr) {
   for (var i = 1; i < arr.length; i++) {
