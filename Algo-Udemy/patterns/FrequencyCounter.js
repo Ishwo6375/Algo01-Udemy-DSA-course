@@ -32,6 +32,22 @@
 //Refactored //Two seperate loop is better than one nested loop
 //time complexity = O(n)
 
+//pseudo code//
+//create two empty object//
+//loop over each elements in the first array//
+//check if it is alreay in the object or not//
+//if it is not in the object set its frequency to 1//
+//if it already int he object increment its frequency by 1//
+//loop over each elements in array2//
+//do same as we done for array1//
+//again start another loop for array 1//
+//check if current element we are on in array1 square equals to element in array2//
+//if it is not equal return false//
+//check if the elements in second array have the same square value of 1st array or not//
+//if there is not return false//
+//for example if there is two 2 in array1 there should be two 4 in second array//
+//other wise return true//
+
 function same(arr1, arr2){
     //return false if arr1 length is not equal to arr2 length
     if(arr1.length !== arr2.length){
