@@ -20,7 +20,6 @@ factorial(4); //=> output = 24
 //Recursive solution//
 
 function factorialRecur(x){
-    if(x < 0) return 0;
      if (x <= 1 ) return 1;
     return x * factorialRecur(x - 1);
 }

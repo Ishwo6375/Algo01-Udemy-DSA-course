@@ -4,13 +4,13 @@
 
 // reverse('awesome') // 'emosewa'
 // reverse('rithmschool') // 'loohcsmhtir'
+const str = "ishwor"
 
 function reverse(str){
 	if(str.length <= 1) return str;
 	return reverse(str.slice(1)) + str[0];
 }
 
-const str = "ishwor"
 
 reverse(str) // => output: "rowhsi"
 

@@ -33,3 +33,6 @@ function countUniqueValues(arr){
 }
 
 console.log([1, 1, 1, 2, 2, 3, 4, 5 , 5, 5, 5 ,6, 7])
+
+//space complexity = O(1)
+//time complexity = O(n)

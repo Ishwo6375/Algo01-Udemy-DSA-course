@@ -5,6 +5,9 @@
 //example validAnagram("anagram", "nagaram") => true
 //example2 validAnagram("rat", "car") => false
 
+//pseudo code//
+
+
 function validAnagram(first, second) {
   //two parameters
   //return false if first length is not equal to second//

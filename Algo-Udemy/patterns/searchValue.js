@@ -24,3 +24,6 @@ function search(arr, val){ // takes two parameters
 search([1,2,3,4,5,6], 6) // => 5
 
 //time Complexity = O(N) linear 
+
+// Refactor Solution//
+//Divide and Conquer method//
